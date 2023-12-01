@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOMEN IN TECHNOLOGY SURVEY FORM</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+   
+  <div class="header-section">
+          <div class="top-header-section">
+              <span class="brand-name"> SURVEY</span> 
+              </div> <br>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+      
+          <label for="role">Current Role:</label>
+          <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="recommend">How likely is it that you would recommend FreeCodeCamp to a friend or colleague?</label>
+          <input type="range" Definitely="recommend" Maybe="recommend" Notsure="0" >
+          <output for="recommend" id="recommendOutput">5</output>
+      
+          <label for="like">What do you like most about FreeCodeCamp?</label>
+          <textarea id="like" name="like" rows="4" required></textarea>
+      
+          <label for="improvements">Things that should be improved in the future:</label>
+          <textarea id="improvements" name="improvements" rows="4" required></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+      
+       
+</body>
+</html>

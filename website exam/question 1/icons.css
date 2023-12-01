@@ -1,0 +1,19 @@
+.social-icons a {
+    
+    font-size: 2px;
+    margin: 0 10px;
+    
+}
+.face{
+   width: auto; 
+   width: fit-content;
+   height: 20px;
+}
+.twitter{
+    width: auto;
+    height: 20px;
+}
+.instagram{
+    width: auto;
+    height: 20px;
+}
